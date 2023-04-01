@@ -1,0 +1,42 @@
+.wrap{
+    position: relative;
+    background: slategray;
+    z-index:1;
+}
+
+.wrap>div{
+    width:100px;
+    height:100px;
+    margin:0.5rem;
+    color:#fff;
+    position:absolute;
+
+}
+
+.wrap > div:nth-child(1){
+    top:10px;
+    left:10px;
+    background-color:red;
+}
+
+.wrap > div:nth-child(2){
+    top:30px;
+    left:30px;
+    background-color:green;
+}
+
+.wrap > div:nth-child(3){
+    top:50px;
+    left:50px;
+    background-color:blue;
+}
+
+.wrap2{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:100px;
+    top:100px;
+    z-index:2;
+    background: yellow;
+}
